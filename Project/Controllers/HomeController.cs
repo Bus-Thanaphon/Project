@@ -21,7 +21,7 @@ namespace Project.Controllers
             return View(db.Masterials.ToList());
         }
 
-        // GET: Home/Details/5
+        // GET: Home/Details/55
         public ActionResult Details(string id)
         {
             if (id == null)
